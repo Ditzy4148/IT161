@@ -43,31 +43,31 @@
 				<ol class="carousel__viewport">
 					<li id="carousel__slide1" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
-						<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						<!-- <a href="#carousel__slide5" class="carousel__prev">Go to last slide</a>
 						<a href="#carousel__slide2" class="carousel__next">Go to next slide</a> -->
 					</li>
 					<li id="carousel__slide2" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
-						<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						<!-- <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
 						<a href="#carousel__slide3" class="carousel__next">Go to next slide</a> -->
 					</li>
 					<li id="carousel__slide3" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
-						<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						<!-- <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
 						<a href="#carousel__slide4" class="carousel__next">Go to next slide</a> -->
 					</li>
 					<li id="carousel__slide4" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
-						<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						<!-- <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
 						<a href="#carousel__slide5" class="carousel__next">Go to next slide</a> -->
 					</li>
 					<li id="carousel__slide5" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
-						<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						<!-- <a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
 						<a href="#carousel__slide1" class="carousel__next">Go to first slide</a> -->
 					</li>
@@ -99,85 +99,85 @@
 				<ul>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="https://via.placeholder.com/1200x1500.png?text=Carousel+Placeholder" alt="Placeholder image desc.">
+							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
