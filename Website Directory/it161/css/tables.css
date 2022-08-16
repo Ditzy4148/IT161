@@ -1,0 +1,42 @@
+table {
+    border:2px solid #000;
+    width:90%;
+    border-collapse: collapse;
+    margin:auto;
+    background-color:#fff;
+}
+
+tr {
+  vertical-align:top;
+}
+
+tr:nth-child(even) {
+    background-color:rgb(238, 238, 238);
+}
+
+tr:hover {
+    background-color:cyan;
+}
+
+td,th {
+    border-left:1px solid #000;
+    border-bottom:1px dotted #000;
+    padding:.5em;
+}
+
+table.client {
+    margin:40px auto; /* T R B L */
+}
+
+table.client th {
+    text-align: left;
+    width:30%;
+}
+
+table.audience th {
+    margin:40px auto; /* T R B L */
+}
+
+table.audience th{
+    width:33.3%;
+}
