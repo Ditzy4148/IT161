@@ -8,14 +8,14 @@
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/forms.css"/>
-		<link rel="stylesheet" href="css/carousel.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- <link rel="stylesheet" href="css/carousel.css"/> -->
 	</head>
 	<body>
 		<header>
 			<a href="mailinglist.html" class="announcement-banner">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					&#x2605;Join my mailing list!&#x2605;
 				</p>
 			</a>
 			<h1>
@@ -39,37 +39,37 @@
 
 			<a class="scroll-to-top" href="#"><i class="fa fa-chevron-up" style="font-size:3em"></i><br>Top</a>
 
-			<section class="carousel" aria-label="Gallery">
+			<!-- <section class="carousel" aria-label="Gallery">
 				<ol class="carousel__viewport">
 					<li id="carousel__slide1" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
 						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<!-- <a href="#carousel__slide5" class="carousel__prev">Go to last slide</a>
-						<a href="#carousel__slide2" class="carousel__next">Go to next slide</a> -->
+						<a href="#carousel__slide5" class="carousel__prev">Go to last slide</a>
+						<a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
 					</li>
 					<li id="carousel__slide2" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
 						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<!-- <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-						<a href="#carousel__slide3" class="carousel__next">Go to next slide</a> -->
+						<a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+						<a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
 					</li>
 					<li id="carousel__slide3" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
 						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<!-- <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-						<a href="#carousel__slide4" class="carousel__next">Go to next slide</a> -->
+						<a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+						<a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
 					</li>
 					<li id="carousel__slide4" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
 						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<!-- <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-						<a href="#carousel__slide5" class="carousel__next">Go to next slide</a> -->
+						<a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+						<a href="#carousel__slide5" class="carousel__next">Go to next slide</a>
 					</li>
 					<li id="carousel__slide5" tabindex="0" class="carousel__slide">
 						<div class="carousel__snapper"></div>
 						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<!-- <a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
-						<a href="#carousel__slide1" class="carousel__next">Go to first slide</a> -->
+						<a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
+						<a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
 					</li>
 				</ol>
 				<aside class="carousel__navigation">
@@ -91,7 +91,7 @@
 						</li>
 					</ol>
 				</aside>
-			</section>
+			</section> -->
 
 			<h2 class="subheader">Lorem ipsum dolor sit amet</h2>
 			
@@ -183,6 +183,7 @@
 					</li>
 				</ul>
 			</div>
+
 			<footer>
 				<div class="secondary_nav">
 					<ul>
@@ -233,7 +234,9 @@
 					</small>
 				</p>
 			</footer>
+
 		</div>
+
 		<!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
 		<script>
 			//https://tinyurl.com/dynamic-html-checker
@@ -251,5 +254,6 @@
 			    }
 			}   
 		</script>
+		
 	</body>
 </html>

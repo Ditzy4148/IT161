@@ -9,6 +9,10 @@ html {
     line-height: 1.5em;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
 ::selection {
     color: #000; 
     background: #ff0;
@@ -23,6 +27,11 @@ html {
     background-color: #ff8b4a;
     text-align: center;
     margin: 0.5em 0;
+    transition: all 0.5s ease;
+}
+
+.announcement-banner p:hover {
+    transform: scale(1.05) perspective(1px)
 }
 
 h1 {
@@ -201,10 +210,6 @@ footer {
 
 /* PHONE */
 @media all and (max-width:500px) {
-    
-    .announcement-banner p {
-        width: fit-content;
-    }
 
     div.wrapper {
         width: 100%;
