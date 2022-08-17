@@ -10,28 +10,7 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-}
-::selection {
-    color: #000; 
-    background: #ff0;
-}
-
-.announcement-banner p {
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    overflow-wrap: break-word;
-    color: #fff;
-    background-color: #ff8b4a;
-    text-align: center;
-    margin: 0.5em 0;
-    transition: all 0.5s ease;
-}
-
-.announcement-banner p:hover {
-    transform: scale(1.05) perspective(1px)
+    margin: auto;
 }
 
 h1 {
@@ -40,47 +19,6 @@ h1 {
     margin: auto;
     background: white;
     line-height: 2.5em;
-}
-
-div.wrapper {
-    background-color: white;
-    overflow: auto;
-}
-
-div.gallery {
-    margin: auto;
-    width: 100%;
-    height: 100%;
-}
-
-div.gallery ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-div.gallery li {
-    list-style: none;
-    display: inline-block;
-    width: calc(100% / 3);
-    text-align: center;
-}
-
-div.gallery img {
-    object-fit: scale-down;
-    object-position: center;
-}
-
-.scroll-to-top {
-    position: fixed;
-    display: block;
-    z-index: 1000;
-    left: 90%;
-    top: 90%;
-    text-align: center;
-    color: #fff;
-    background-color: rgb(235, 85, 85);
 }
 
 p {
@@ -96,7 +34,7 @@ h2 {
 }
 
 a {
-    color:#000;
+    color:#fff;
     text-decoration: none;
 }
 
@@ -106,6 +44,78 @@ a:hover {
     text-decoration: none;
 }
 
+div.wrapper {
+    background-color: white;
+    /* overflow: auto; */
+}
+
+::selection {
+    color: #000; 
+    background: #ff0;
+}
+
+/* ==========Announcement Banner========== */
+.announcement-banner p {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    overflow-wrap: break-word;
+    color: #fff;
+    background-color: #ff8b4a;
+    text-align: center;
+    margin: 0.5em auto;
+    transition: all 0.5s ease;
+}
+
+.announcement-banner p:hover {
+    transform: scale(1.05) perspective(1px)
+}
+/* ==========Announcement Banner========== */
+
+/* ==========Product Gallery========== */
+div.gallery {
+    margin-right: 5em;
+}
+
+div.gallery ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+div.gallery li {
+    list-style: none;
+    display: inline-block;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+div.gallery img {
+    object-fit: scale-down;
+    object-position: center;
+}
+/* ==========Product Gallery========== */
+
+/* ==========Scroll to Top========== */
+.scroll-to-top {
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    left: 92%;
+    top: 90%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(235, 85, 85);
+}
+
+.scroll-to-top .fa {
+    font-size:2em;
+}
+/* ==========Scroll to Top========== */
+
+/* ==========Past Works Gallery========== */
 .past-works {
     display: block;
     text-align: left;
@@ -119,17 +129,9 @@ a:hover {
     object-fit: scale-down;
     object-position: center;
 }
+/* ==========Past Works Gallery========== */
 
-/*
-iframe {
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 5700px;
-    border: 2px solid darkcyan;
-}
-*/
-
+/* ==========Footer========== */
 footer {
     display: block;
     background-color:rgb(235, 85, 85);
@@ -145,13 +147,14 @@ footer {
     text-align: left;
     margin-left: 0;
 }
+/* ==========Footer========== */
 
-/* Responsive rules */
+/* ==========Responsive rules========== */
 
 /* DESKTOP */
 @media all and (min-width:1200px) {
     div.wrapper {
-        width: 80%;
+        width: 81%;
         margin: auto;
     }
     
@@ -159,17 +162,7 @@ footer {
         width: 80%;
         padding-left: 1%;
     }
-    
-    img.desktop {
-        width: 50%;
-        float: left;
-        margin-right: 1em;
-    }
-    
-    img.tablet, img.phone {
-        display: none;
-    }
-    
+
     p {
         margin: 1em;
     }
@@ -191,16 +184,6 @@ footer {
         width: 89%;
         padding-left: 1%;
     }
-    
-    img.tablet {
-        width: 50%;
-        float: right;
-        margin-left: 1em;
-    }
-    
-    img.desktop, img.phone {
-        display: none;
-    }
 
     div.gallery img {
         height: 50%;
@@ -210,7 +193,6 @@ footer {
 
 /* PHONE */
 @media all and (max-width:500px) {
-
     div.wrapper {
         width: 100%;
     }
@@ -220,14 +202,6 @@ footer {
         padding-left: 1%;
     }
     
-    img.phone {
-        width: 100%;
-    }
-    
-    img.desktop, img.tablet {
-        display: none;
-    }
-
     div.gallery img {
         height: 30%;
         width: 30%;

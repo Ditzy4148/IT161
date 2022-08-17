@@ -10,13 +10,13 @@
 		<link rel="stylesheet" href="css/forms.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+		<!-- Carousel -->
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="css/carousel.css"/>
 
-
-		<!-- <link rel="stylesheet" href="css/carousel.css"/> -->
 	</head>
 	<body>
 		<header>
@@ -45,12 +45,13 @@
 		<div class="wrapper">
 
 			<div class="slick-slideshow">
-				<div>My Content 1</div>
-				<div>My Content 2</div>
-				<div>My Content 3</div>
-				<div>My Content 4</div>
+				<div><img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc."></div>
+				<div><img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc."></div>
+				<div><img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc."></div>
+				<div><img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc."></div>
 			</div>
-			<a class="scroll-to-top" href="#"><i class="fa fa-chevron-up" style="font-size:3em"></i><br>Top</a>
+
+			<a class="scroll-to-top" href="#"><i class="fa fa-chevron-up"></i><br>Top</a>
 
 			<!-- <section class="carousel" aria-label="Gallery">
 				<ol class="carousel__viewport">
@@ -273,7 +274,6 @@
 				$(".slick-slideshow").slick({
 					autoplay: true,
 					dots: true,
-					infinite: true,
 					slidesToShow: 1,
 					slidesToScroll: 1
 				});
