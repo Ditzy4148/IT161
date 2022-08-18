@@ -2,6 +2,8 @@
 @media all and (min-width:501px){
     div.wrapper form{
         margin-left:22.8px;
+        border-width: 2px;
+        border-color: #fff;
     }
 }
 

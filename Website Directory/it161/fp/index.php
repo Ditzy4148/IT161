@@ -6,12 +6,14 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta charset="utf-8" />
 
+		<!-- ◀ Stylesheets ▶ -->
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/forms.css"/>
+		<link rel="stylesheet" href="css/footernav.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		
-		<!-- Carousel -->
+		<!-- ◀ Carousel Libraries ▶ -->
 			<!-- ✅ Load Slick CSS ✅ -->
 				<link rel="stylesheet" href="css/slick.css"/>
 				<link rel="stylesheet" href="css/slick-theme.css"/>
@@ -29,31 +31,38 @@
 	</head>
 	<body>
 		<header>
-			<a href="mailinglist.html" class="announcement-banner">
-				<p>
-					&#x2605;Join my mailing list!&#x2605;
-				</p>
-			</a>
+			<!-- ◀ Mailing List ▶ -->
+			<a href="mailinglist.php" class="announcement-banner"><p>&#x2605;Join my mailing list!&#x2605;</p></a>
+
+			<!-- ◀ Site Logo▶ -->
 			<h1>
 				<br>
-				<a href="template.php">
+				<a href="index.php">
 					<img src="https://via.placeholder.com/300x150.png?text=Agent0012+Art+Logo" alt="Agent0012 Art Website Logo">
 				</a>
 			</h1>
+
+			<!-- ◀ Top Nav ▶ -->
 			<nav class="topnav" id="myTopnav">
 				<b>
-					<a href="template.php" class="active">Home</a>
-					<a href="secondarytemplate.php">Work with Me</a>
-					<a href="about.html">About Me</a>
-					<a href="products.html">Products</a>
+					<a href="index.php" class="active">Home</a>
+					<a href="collab.php">Work with Me</a>
+					<a href="about.php">About</a>
+					<a href="products.php">Products</a>
 					<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 				</b>
 			</nav>
+			
 		</header>
-
+		
 		<div class="wrapper">
+			<!-- ◀ Back to Top ▶ -->
+			<a class="scroll-to-top" href="#"><i class="fa fa-chevron-up"></i><br>Top</a>
+			
+			<!-- ◀ Page Title ▶ -->
 			<h2 class="subheader">Home</h2>
 
+			<!-- ◀ Carousel ▶ -->
 			<div class="slick-slideshow">
 				<div><img src="../images/placeholder1200x1500.png" alt="Placeholder image desc."></div>
 				<div><img src="../images/placeholder1200x1500.png" alt="Placeholder image desc."></div>
@@ -61,90 +70,71 @@
 				<div><img src="../images/placeholder1200x1500.png" alt="Placeholder image desc."></div>
 			</div>
 
-			<a class="scroll-to-top" href="#"><i class="fa fa-chevron-up"></i><br>Top</a>
-			
+			<!-- ◀ Products Gallery ▶ -->
 			<div class="gallery">
 				<ul>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
-						<a href="productplaceholder.html">
-							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
-						</a>
-						<p>Product placeholder description.<p>
-					</li>
-					<li>
-						<a href="productplaceholder.html">
-							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
-						</a>
-						<p>Product placeholder description.<p>
-					</li>
-					<li>
-						<a href="productplaceholder.html">
-							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
-						</a>
-						<p>Product placeholder description.<p>
-					</li>
-					<li>
-						<a href="productplaceholder.html">
+						<a href="productplaceholder.php">
 							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
@@ -153,23 +143,22 @@
 			</div>
 
 			<footer>
-				<div class="secondary_nav">
+				<div class="footer-nav">
 					<ul>
 						<li>
-							<a href="template.php">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li>
-							<a href="worktogether.html">Work with Me</a>
+							<a href="collab.php">Work with Robin</a>
 						</li>
 						<li>
-							<a href="about.html">About Me</a>
+							<a href="about.php">About</a>
 						</li>
 						<li>
-							<a href="products.html">Products</a>
+							<a href="products.php">Products</a>
 						</li>
 					</ul>
 				</div>
-				
 				<?php
 					/*
 					* Below are 2 different forms to be re-used       

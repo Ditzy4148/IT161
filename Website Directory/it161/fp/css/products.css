@@ -1,0 +1,41 @@
+.product-sort {
+    overflow: auto;
+    text-align: center;
+}
+
+.product-sort ul {
+    margin: 0;
+    padding: 0;
+}
+
+.product-sort li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.product-sort a {
+    color: #000;
+    font-size: 14px;
+    padding: 0 0.5em;
+    transition: all 0.5s ease;
+}
+
+.product-sort a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 85, 85);
+    transform: scale(0.8) perspective(1px)
+}
+
+.gallery h3 {
+    text-align: center;
+}
+
+.product-placeholder {
+    padding: 5em;
+}
+
+.product-placeholder img {
+    float: right;
+    object-fit: cover;
+    height: 800px;
+}

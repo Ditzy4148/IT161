@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Work with Agnt0012</title>
+		<title>Agnt0012 - Collab</title>
 		<meta name="robots" content="noindex,nofollow" />
 		<meta name="viewport" content="width=device-width" />
 		<meta charset="utf-8" />
@@ -10,12 +10,13 @@
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/forms.css"/>
+		<link rel="stylesheet" href="css/footernav.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<header>
 			<!-- ◀ Mailing List ▶ -->
-			<a href="mailinglist.html" class="announcement-banner"><p>&#x2605;Join my mailing list!&#x2605;</p></a>
+			<a href="mailinglist.php" class="announcement-banner"><p>&#x2605;Join my mailing list!&#x2605;</p></a>
 			
 			<!-- ◀ Site Logo ▶ -->
 			<h1>
@@ -29,9 +30,9 @@
 			<nav class="topnav" id="myTopnav">
 				<b>
 					<a href="index.php">Home</a>
-					<a href="collab.php" class="active">Work with Me</a>
-					<a href="about.html">About Me</a>
-					<a href="products.html">Products</a>
+					<a href="collab.php" class="active">Work with Robin</a>
+					<a href="about.php">About</a>
+					<a href="products.php">Products</a>
 					<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 				</b>
 			</nav>
@@ -43,7 +44,7 @@
 			<a class="scroll-to-top" href="#"><i class="fa fa-chevron-up"></i><br>Top</a>
 
 			<!-- ◀ Page Title ▶ -->
-			<h2 class="subheader">Work With Me</h2>
+			<h2 class="subheader">Work with Robin</h2>
 
 			<!-- ◀ Past Works Gallery ▶ -->
 			<ul class="past-works">
@@ -71,19 +72,19 @@
 
 
 			<footer>
-				<div class="secondary_nav">
+				<div class="footer-nav">
 					<ul>
 						<li>
 							<a href="index.php">Home</a>
 						</li>
 						<li>
-							<a href="worktogether.html">Work with Me</a>
+							<a href="collab.php">Work with Robin</a>
 						</li>
 						<li>
-							<a href="about.html">About Me</a>
+							<a href="about.php">About</a>
 						</li>
 						<li>
-							<a href="products.html">Products</a>
+							<a href="products.php">Products</a>
 						</li>
 					</ul>
 				</div>

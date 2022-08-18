@@ -21,16 +21,22 @@ h1 {
     line-height: 2.5em;
 }
 
-p {
-    margin: 1em 1em;
-}
-
-
 h2 {
     font-weight: normal;
-    margin-left: 1em;
+    margin: auto;
+    padding: 1em;
     line-height: 1em;
     text-align: center;
+}
+
+h3 {
+    text-align: left;
+    margin: auto;
+    padding: 1em;
+}
+
+p {
+    margin: 1em 1em;
 }
 
 a {
@@ -73,11 +79,9 @@ div.wrapper {
 /* ==========Announcement Banner========== */
 
 /* ==========Product Gallery========== */
-div.gallery {
-    margin-right: 5em;
-}
-
 div.gallery ul {
+    margin-right: 5em;
+    padding: 1em;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -117,19 +121,42 @@ div.gallery img {
 
 /* ==========Past Works Gallery========== */
 .past-works {
-    display: block;
+    padding: 2em;
+}
+
+.past-works ul {
+    display: flex;
+    flex-wrap: column wrap;
     text-align: left;
     list-style-type: none;
-    padding: 0;
-    margin-left: 1em;
-    
+    margin: auto;
+    width: 100%;
 }
 
 .past-works img {
     object-fit: scale-down;
     object-position: center;
+    width: 100%;
+}
+
+.past-works li {
+    list-style: none;
+    display: inline-block;
 }
 /* ==========Past Works Gallery========== */
+
+/* ==========About========== */
+/* .about {
+    display: flex;
+    flex-flow: column wrap;
+} */
+
+.about img {
+    object-fit: contain;
+    float: right;
+    padding: 1em;
+}
+/* ==========About========== */
 
 /* ==========Footer========== */
 footer {
@@ -203,7 +230,7 @@ footer {
     }
     
     div.gallery img {
-        height: 30%;
-        width: 30%;
+        height: 70%;
+        width: 70%;
     }
 }
