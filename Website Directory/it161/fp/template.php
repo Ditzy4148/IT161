@@ -5,17 +5,26 @@
 		<meta name="robots" content="noindex,nofollow" />
 		<meta name="viewport" content="width=device-width" />
 		<meta charset="utf-8" />
+
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/forms.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+		
 		<!-- Carousel -->
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="css/carousel.css"/>
+			<!-- ✅ Load Slick CSS ✅ -->
+				<link rel="stylesheet" href="css/slick.css"/>
+				<link rel="stylesheet" href="css/slick-theme.css"/>
+			
+			<!-- ✅ Load Custom Slick CSS ✅ -->
+				<link rel="stylesheet" href="css/carousel.css"/>
+
+			<!-- ✅ Load jQuery ✅ -->
+				<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+			<!-- ✅ Load Slick JS ✅ -->
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+				<script src="js/slickinit.js"></script>
 
 	</head>
 	<body>
@@ -45,67 +54,13 @@
 		<div class="wrapper">
 
 			<div class="slick-slideshow">
-				<div><img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc."></div>
-				<div><img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc."></div>
-				<div><img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc."></div>
-				<div><img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc."></div>
+				<div><img src="../images/placeholder1200x1500.png" alt="Placeholder image desc."></div>
+				<div><img src="../images/placeholder1200x1500.png" alt="Placeholder image desc."></div>
+				<div><img src="../images/placeholder1200x1500.png" alt="Placeholder image desc."></div>
+				<div><img src="../images/placeholder1200x1500.png" alt="Placeholder image desc."></div>
 			</div>
 
 			<a class="scroll-to-top" href="#"><i class="fa fa-chevron-up"></i><br>Top</a>
-
-			<!-- <section class="carousel" aria-label="Gallery">
-				<ol class="carousel__viewport">
-					<li id="carousel__slide1" tabindex="0" class="carousel__slide">
-						<div class="carousel__snapper"></div>
-						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<a href="#carousel__slide5" class="carousel__prev">Go to last slide</a>
-						<a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
-					</li>
-					<li id="carousel__slide2" tabindex="0" class="carousel__slide">
-						<div class="carousel__snapper"></div>
-						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-						<a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
-					</li>
-					<li id="carousel__slide3" tabindex="0" class="carousel__slide">
-						<div class="carousel__snapper"></div>
-						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-						<a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
-					</li>
-					<li id="carousel__slide4" tabindex="0" class="carousel__slide">
-						<div class="carousel__snapper"></div>
-						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-						<a href="#carousel__slide5" class="carousel__next">Go to next slide</a>
-					</li>
-					<li id="carousel__slide5" tabindex="0" class="carousel__slide">
-						<div class="carousel__snapper"></div>
-						<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
-						<a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
-						<a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
-					</li>
-				</ol>
-				<aside class="carousel__navigation">
-					<ol class="carousel__navigation-list">
-						<li class="carousel__navigation-item">
-							<a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
-						</li>
-						<li class="carousel__navigation-item">
-							<a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
-						</li>
-						<li class="carousel__navigation-item">
-							<a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
-						</li>
-						<li class="carousel__navigation-item">
-							<a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
-						</li>
-						<li class="carousel__navigation-item">
-							<a href="#carousel__slide5" class="carousel__navigation-button">Go to slide 5</a>
-						</li>
-					</ol>
-				</aside>
-			</section> -->
 
 			<h2 class="subheader">Lorem ipsum dolor sit amet</h2>
 			
@@ -113,85 +68,85 @@
 				<ul>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
 					<li>
 						<a href="productplaceholder.html">
-							<img src="..\images\placeholder1200x1500.png" alt="Placeholder image desc.">
+							<img src="../images/placeholder1200x1500.png" alt="Placeholder image desc.">
 						</a>
 						<p>Product placeholder description.<p>
 					</li>
@@ -248,6 +203,16 @@
 					</small>
 				</p>
 			</footer>
+			<script>
+				$(function () {
+					$(".slick-slideshow").slick({
+						autoplay: true,
+						dots: true,
+						slidesToShow: 1,
+						slidesToScroll: 1
+					});
+				});
+			</script>
 
 		</div>
 
@@ -269,16 +234,6 @@
 			}   
 		</script>
 
-		<script>
-			$(document).ready(function () {
-				$(".slick-slideshow").slick({
-					autoplay: true,
-					dots: true,
-					slidesToShow: 1,
-					slidesToScroll: 1
-				});
-			});
-		</script>
 
 	</body>
 </html>
